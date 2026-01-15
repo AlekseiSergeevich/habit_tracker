@@ -1,0 +1,69 @@
+# Общие системные файлы
+.DS_Store
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+thumbs.db
+
+# Файлы сборки и бинарники
+bin/
+obj/
+[Bb]uild/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.dotCover
+
+# Файлы пакетов NuGet
+.nuget/
+*.nupkg
+packages/
+
+# Файлы IDE
+.vs/
+.idea/
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.swp
+
+# Файлы пользователей
+*.userprefs
+
+# Файлы тестов
+TestResults/
+*.testlog
+*.trx
+
+# Локальные настройки
+appsettings.Development.json
+appsettings.Local.json
+
+# Файлы Docker
+docker-compose.override.yml
+
+# Файлы миграций (если используете EF Core)
+Migrations/
+
+# Временные файлы
+*.tmp
+*.temp
+
+# Файлы резервных копий
+*.bak
+*.backup
+
+# Файлы журналов
+*.log
+*.log.*
+logs/
+
+# Файлы Node.js (если используется фронтенд)
+node_modules/
+npm-debug.log*
+
+# Файлы Rider
+*.sln.iml
